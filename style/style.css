@@ -26,5 +26,8 @@ h1 {
     background-color: #fff; border-width: 1px; border-color: #d4d8dc;  color: #d4d8dc; padding: 7px 10px; border-radius: 8px;
 }
 hr {
-    margin-top: 10px; border: #d4d8dc;
+    margin-top: 10px; border: 0; border-top: 1px solid #d4d8dc;
+}
+.task {
+    padding-top: 40px; padding-left: 60px;
 }
