@@ -14,7 +14,7 @@ h1 {
     vertical-align: middle;
 }
 .container-main {
-    width: 60%; margin: 40px auto; background-color: #fff;
+    width: 60%; margin: 40px auto; padding-bottom: 50px; background-color: #fff; border-radius: 12px;
 }
 .header-main {
     padding-top: 10px; padding-left: 60px;
