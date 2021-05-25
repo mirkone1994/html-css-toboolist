@@ -5,10 +5,10 @@ body {
     background-color: #f6f8f9 ;
 }
 .header-top {
-     height: 100px; line-height: 100px; margin-left: 20px; background-color: #fff; margin-left: 0;
+     height: 100px; line-height: 100px; padding-left: 20px; background-color: #fff; margin-left: 0;
 }
 h1 {
-    display: inline-block; font-size: 35px; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: inline-block; font-size: 35px; font-family:'Lucida Sans', Geneva, Verdana, sans-serif;
 }
 .logo {
     vertical-align: middle;
@@ -29,7 +29,7 @@ hr {
     margin-top: 10px; border: 0; border-top: 1px solid #d4d8dc;
 }
 .task {
-    padding-top: 40px; padding-left: 60px; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    padding-top: 40px; padding-left: 60px; font-family:'Lucida Sans', Geneva, Verdana, sans-serif
 }
 ul {
     list-style-position: inside; 
@@ -46,21 +46,24 @@ li::marker {
 span {
     position: relative; left: 10px;
 }
+.tag{
+    border: none; color: #fff; padding: 7px 10px; border-radius: 12px; position: relative; left: 20px; font-size: 10px;
+}
 .editorial {
-    background-color: #47adf1; border: none; color: #fff; padding: 7px 10px; border-radius: 12px; position: relative; left: 20px; font-size: 10px;
+    background-color: #47adf1; 
 }
 .Q1 {
-    background-color: #9c72e4; border: none; color: #fff; padding: 7px 10px; border-radius: 12px; position: relative; left: 20px; font-size: 10px;
+    background-color: #9c72e4; 
 }
 .recruiting {
-    background-color: #64c0a9; border: none; color: #fff; padding: 7px 10px; border-radius: 12px; position: relative; left: 20px; font-size: 10px;
+    background-color: #64c0a9; 
 }
 .mobile {
-    background-color: #f29e33; border: none; color: #fff; padding: 7px 10px; border-radius: 12px; position: relative; left: 20px; font-size: 10px;
+    background-color: #f29e33; 
 }
 .website {
-    background-color: #d863a1; border: none; color: #fff; padding: 7px 10px; border-radius: 12px; position: relative; left: 20px; font-size: 10px;
+    background-color: #d863a1; 
 }
 .sales {
-    background-color: #b0c926; border: none; color: #fff; padding: 7px 10px; border-radius: 12px; position: relative; left: 20px; font-size: 10px;
+    background-color: #b0c926; 
 }
