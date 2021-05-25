@@ -29,5 +29,20 @@ hr {
     margin-top: 10px; border: 0; border-top: 1px solid #d4d8dc;
 }
 .task {
-    padding-top: 40px; padding-left: 60px;
+    padding-top: 40px; padding-left: 60px; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+ul {
+    list-style-position: inside; 
+}
+li {
+    margin: 10px 0; 
+}
+li::marker {
+  color: green; content: "✓"; border-radius: 50%; border-color: green; border: 3px;
+}
+.cross::marker {
+    color: red; content: "x";
+}
+span {
+    position: relative; left: 10px;
 }
