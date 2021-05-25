@@ -13,6 +13,18 @@ h1 {
 .logo {
     vertical-align: middle;
 }
-.container {
-    width: 60%; margin: 0 auto; 
+.container-main {
+    width: 60%; margin: 40px auto; background-color: #fff;
+}
+.header-main {
+    padding-top: 10px; padding-left: 60px;
+}
+.buttontask {
+    background-color: #47adf1; border: none; color: #fff; padding: 7px 10px; border-radius: 8px;
+}
+.buttonsection {
+    background-color: #fff; border-width: 1px; border-color: #d4d8dc;  color: #d4d8dc; padding: 7px 10px; border-radius: 8px;
+}
+hr {
+    margin-top: 10px; border: #d4d8dc;
 }
