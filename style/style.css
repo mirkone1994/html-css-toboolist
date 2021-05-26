@@ -38,7 +38,7 @@ li {
     margin: 10px 0; 
 }
 li::before {
-  color: green; border-radius: 50%; height: 15px; width: 15px; border: 1px solid green; content: "✓"; text-align: center; vertical-align: middle;
+  color: green; border-radius: 50%; height: 15px; width: 15px; border: 1px solid green; content: "✓"; text-align: center; vertical-align: middle; font-size: 10px; display: inline-block;
 }
 .cross::before {
     color: red; content: "x"; border-radius: 50%; border: 1px solid red;
