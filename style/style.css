@@ -32,16 +32,16 @@ hr {
     padding-top: 40px; padding-left: 60px; font-family:'Lucida Sans', Geneva, Verdana, sans-serif
 }
 ul {
-    list-style-position: inside; 
+    list-style-position: inside; list-style-type: none;
 }
 li {
     margin: 10px 0; 
 }
-li::marker {
-  color: green; content: "✓"; border-radius: 50%; border-color: green; border: 3px;
+li::before {
+  color: green; border-radius: 50%; height: 15px; width: 15px; border: 1px solid green; content: "✓"; text-align: center; vertical-align: middle;
 }
-.cross::marker {
-    color: red; content: "x";
+.cross::before {
+    color: red; content: "x"; border-radius: 50%; border: 1px solid red;
 }
 span {
     position: relative; left: 10px;
